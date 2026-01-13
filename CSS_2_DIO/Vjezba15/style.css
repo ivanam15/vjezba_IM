@@ -1,7 +1,3 @@
-/* ============================= */
-/* RESET I OSNOVNI STILOVI */
-/* ============================= */
-
 * {
     margin: 0;
     padding: 0;
@@ -12,10 +8,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
-
-/* ============================= */
-/* HEADER I NAVIGACIJA */
-/* ============================= */
 
 header {
     background-color: white;
@@ -54,10 +46,6 @@ nav a {
     font-size: 14px;
 }
 
-/* ============================= */
-/* MAIN – LEGO SADRŽAJ */
-/* ============================= */
-
 main {
     background-color: white;
     border: 1px solid #cccccc;
@@ -65,7 +53,6 @@ main {
     padding: 10px;
 }
 
-/* Naslovi */
 main h1 {
     text-align: center;
     color: blue;
@@ -80,7 +67,6 @@ main h2 {
     font-size: 20px;
 }
 
-/* Tekst */
 main p {
     line-height: 1.5;
     margin-bottom: 10px;
@@ -105,7 +91,6 @@ main p {
     font-weight: bold;
 }
 
-/* Link */
 .lego-link {
     display: inline-block;
     margin: 10px 0;
@@ -116,30 +101,23 @@ main p {
     background-color: #ffffff;
 }
 
-/* Slika */
 .lego-slika {
     width: 300px;
     border: 1px solid #cccccc;
     margin: 10px 0;
 }
 
-/* Lista */
 .lista-tema {
     margin-left: 20px;
     margin-bottom: 10px;
     list-style-type: square;
 }
 
-/* Napomena */
 .napomena {
     color: red;
     font-size: 14px;
     margin-top: 10px;
 }
-
-/* ============================= */
-/* TABLICA RASPOREDA */
-/* ============================= */
 
 .raspored {
     width: 100%;
@@ -164,10 +142,6 @@ main p {
     background-color: #fff7cc;
 }
 
-/* ============================= */
-/* KONTAKT FORMA – VJEŽBA 15 */
-/* ============================= */
-
 .lego-contact {
     max-width: 600px;
     margin: 30px auto;
@@ -186,7 +160,6 @@ main p {
     font-weight: 600;
 }
 
-/* Osnovni izgled polja */
 .lego-form input,
 .lego-form select,
 .lego-form textarea {
@@ -197,7 +170,6 @@ main p {
     font: inherit;
 }
 
-/* :focus */
 .lego-form input:focus,
 .lego-form select:focus,
 .lego-form textarea:focus {
@@ -207,28 +179,25 @@ main p {
     box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
 }
 
-/* :checked */
+
 .lego-form input[type="checkbox"]:checked + label,
 .lego-form input[type="radio"]:checked + label {
     font-weight: 700;
     color: #1a7f1a;
 }
 
-/* :disabled */
 .lego-form input:disabled {
     background-color: #eeeeee;
     color: #666666;
     cursor: not-allowed;
 }
 
-/* :enabled */
 .lego-form input:enabled,
 .lego-form select:enabled,
 .lego-form textarea:enabled {
     background-color: #ffffff;
 }
 
-/* Gumb */
 .btn-send {
     display: inline-block;
     padding: 0.6rem 1.5rem;
@@ -240,14 +209,10 @@ main p {
     cursor: pointer;
 }
 
-/* :hover */
 .btn-send:hover {
     background-color: #218838;
 }
 
-/* ============================= */
-/* FOOTER */
-/* ============================= */
 
 footer {
     text-align: center;
